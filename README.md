@@ -4,7 +4,8 @@ Here is a suggestion to improve and decorate your `README.md` file with better f
 
 # TempUsageAlertWebJob
 
-This repository contains the code and instructions for creating a Timer Trigger WebJob to monitor temporary usage alerts.
+This repository contains the code and instructions for creating a Timer Trigger WebJob to monitor temporary usage alerts for Azure App Services.
+Refer - https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system
 
 ---
 
