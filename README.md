@@ -39,7 +39,7 @@ customEvents
 
 **Note:**  
 - Adjust the condition as per your SKU size and its limit, as discussed in the [Understanding the Azure App Service File System](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system).  
-- For example, the condition `(TempUsageKB > 1024)` is used here as a placeholder.
+- For example, the condition `(TempUsageKB > 1024)` is used here as an example.
 
 ---
 
