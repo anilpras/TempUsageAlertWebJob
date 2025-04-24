@@ -2,11 +2,9 @@
 $instrumentationKey = "<ApplicationInsightInstrumentationKey>"
 $uri = "https://dc.services.visualstudio.com/v2/track" # Application Insights ingestion endpoint
 
-
-# Prepare the payload (custom event telemetry)
 $payload = @{
     "name" = "Microsoft.ApplicationInsights.Event"
-    "time" = (Get-Date).ToString("o")  # Time of the event in ISO 8601 format
+    "time" = (Get-Date).ToString("o")  
     "iKey" = $instrumentationKey
     "data" = @{
         "baseType" = "EventData"
