@@ -21,6 +21,7 @@ This project will help you:
 
 ### 1. Create a Timer Trigger WebJob
 - Use the PowerShell script **`WebjobTempUsage.ps1`** to create a Timer Trigger WebJob.
+  refer - https://github.com/anilpras/TempUsageAlertWebJob/blob/main/WebjobTempUsage.ps1 
 
 ### 2. Create a Custom Log Search-Based Alert
 - Follow the steps discussed in the [Azure Monitor Alerts Tutorial](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/tutorial-log-alert).
