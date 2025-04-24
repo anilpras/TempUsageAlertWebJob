@@ -1,7 +1,3 @@
-Here is a suggestion to improve and decorate your `README.md` file with better formatting, headings, and additional sections for clarity and visual appeal:
-
----
-
 # TempUsageAlertWebJob
 
 This repository contains the code and instructions for creating a Timer Trigger WebJob to monitor temporary usage alerts for Azure App Services.
@@ -65,10 +61,3 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-Adding this structure to your `README.md` will make it more readable, visually appealing, and easier to understand for others engaging with your repository. Let me know if you'd like further adjustments!
