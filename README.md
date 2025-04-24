@@ -5,11 +5,11 @@
    **Please Note - Use the condition as per your SKU size and its limit as discussed here -- https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system
    I have used ( TempUsageKB > 1024 just for an exammple )**
    
-customEvents
-| where name == "CustomEvent"
-| extend TempUsageKB = todouble(tostring(parse_json(tostring(customDimensions))["TempUsageKB"]))
-| project timestamp, TempUsageKB
-| where TempUsageKB > 1024
-| summarize count() by bin(timestamp, 1m)
-| where count_ > 0
-
+      customEvents
+      | where name == "CustomEvent"
+      | extend TempUsageKB = todouble(tostring(parse_json(tostring(customDimensions))["TempUsageKB"]))
+      | project timestamp, TempUsageKB
+      | where TempUsageKB > 1024
+      | summarize count() by bin(timestamp, 1m)
+      | where count_ > 0
+      
