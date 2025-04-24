@@ -1,5 +1,5 @@
 # Parameters (update with your actual values)
-$instrumentationKey = "93187c56-b4e9-4aa5-a494-148fb5d5dc64"
+$instrumentationKey = "<ApplicationInsightInstrumentationKey>"
 $uri = "https://dc.services.visualstudio.com/v2/track" # Application Insights ingestion endpoint
 
 
